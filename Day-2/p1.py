@@ -1,34 +1,7 @@
-a = "5"
-print(a)
+a = 50
+b = 60
+c = a*b
+print(c,b,a, sep='---') 
 
-print("a")
-
-print("hai", "hello", "govind", sep="---")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-x = ("apple", "banana", "cherry")
-print(x) 
-print(x, sep="---")
-
-
-
-
-
-
-
-
-a = 5
-print("a =", a, sep='00000', end='\n\n')
-print("a =", a, sep='0', end='\n')
+print(c,b,a, sep='11122', end="\n\n\n") 
+print("this will provide three three line spaces.")
